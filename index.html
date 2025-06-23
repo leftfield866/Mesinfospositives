@@ -13,10 +13,10 @@
     <link rel="manifest" href="manifest.json" />
 
     <!-- Icône pour l'écran d'accueil iOS (Apple Touch Icon) -->
-    <!-- Pour iOS, un fichier PNG statique est généralement recommandé pour une meilleure compatibilité -->
+    <!-- iOS utilise souvent un PNG. Si vous n'avez pas de fichier PNG, l'icône du manifest sera utilisée, -->
+    <!-- mais une icône PNG dédiée (ex: icon-192x192.png) est souvent préférable pour iOS. -->
+    <!-- Le manifest.json ci-dessous contient un SVG jaune encodé en base64 pour Android et les PWA. -->
     <link rel="apple-touch-icon" href="icon-192x192.png" sizes="192x192">
-    <!-- Remarque: Si vous n'avez pas de fichier PNG, le navigateur pourrait utiliser une version du SVG depuis le manifest.
-         Je vais vous donner un SVG encodé pour le manifest qui peut aussi servir de base si vous créez un PNG. -->
 
     <!-- Couleur de la barre d'état du navigateur sur mobile (Android Chrome) -->
     <meta name="theme-color" content="#6B46C1" />
